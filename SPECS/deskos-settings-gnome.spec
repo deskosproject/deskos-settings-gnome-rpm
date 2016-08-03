@@ -1,6 +1,6 @@
 Summary:        DeskOS settings for GNOME
 Name:           deskos-settings-gnome
-Version:        0.1
+Version:        0.2
 Release:        1
 
 Group:          System Environment/Base
@@ -44,5 +44,9 @@ dconf update
 %{_datadir}/glib-2.0/schemas/org.deskos.gschema.override
 
 %changelog
+* Wed Aug 03 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.2-1
+- Fixed favorite-apps
+- Added font antialiasing config
+
 * Thu May 12 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1-1
 - Initial release

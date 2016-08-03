@@ -1,19 +1,19 @@
 [org.gnome.desktop.background]
-show-desktop-icons=false
 picture-uri='file:///usr/share/backgrounds/deskos/default/deskos.xml'
+show-desktop-icons=false
 
 [org.gnome.desktop.screensaver]
 picture-uri='file:///usr/share/backgrounds/deskos/default/deskos.xml'
 
 [org.gnome.desktop.interface]
-gtk-theme="DeskOS"
+gtk-theme='DeskOS'
+icon-theme='DeskOS'
 buttons-have-icons=true
-icon-theme="DeskOS"
 menus-have-icons=true
 clock-show-date=true
 
 [org.gnome.shell.extensions.user-theme]
-name="DeskOS"
+name='DeskOS'
 
 [org.gnome.nautilus.desktop]
 home-icon-visible=false
@@ -39,12 +39,12 @@ report-technical-problems=false
 
 [org.gnome.shell]
 always-show-log-out=true
-favorite-apps=['firefox.desktop', 'mozilla-thunderbird.desktop', 'libreoffice5.0-writer.desktop', 'nautilus.desktop']
+favorite-apps=['firefox.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'gnome-documents.desktop', 'nautilus.desktop']
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com']
 
 [org.gnome.desktop.wm.preferences]
+theme='DeskOS'
 button-layout=':maximize,close'
-theme="DeskOS"
 
 [org.virt-manager.virt-manager]
 system-tray=true
@@ -54,3 +54,7 @@ show-desktop=['<Super>D']
 
 [org.gnome.settings-daemon.peripherals.mouse]
 locate-pointer=false
+
+[org.gnome.settings-daemon.plugins.xsettings]
+antialiasing='rgba'
+hinting='slight'
