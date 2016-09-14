@@ -1,7 +1,7 @@
 Summary:        DeskOS settings for GNOME
 Name:           deskos-settings-gnome
 Version:        0.2
-Release:        1
+Release:        1%{?dist}
 
 Group:          System Environment/Base
 License:        GPLv3+
